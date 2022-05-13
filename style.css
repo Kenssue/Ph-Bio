@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Great+Vibes&family=Josefin+Slab:wght@200&family=Macondo&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(211, 199, 189);
+    scroll-behavior: smooth;
+}
+.imgp img{
+    width: 7rem;
+    height: 5rem;
+    float: right;
+    margin-right: 2.3rem;
+}
+.navbars {
+    flex: auto;
+    float: right;
+    border-left: rgb(0, 0, 0) 1px solid;
+    border-right: rgb(0, 0, 0) 1px solid;
+    border-radius: 1rem;
+    margin-top: 17rem;
+}
+.navbars a{
+    flex: auto;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding-right: 5px;
+    padding-left: 10px;
+    transition: transform .1s;
+
+}
+.navbars a:hover{
+    color: rgb(255, 4, 4);
+    transform: scale(1.1);
+}
+.navbars li{
+    flex: auto;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.news h2{
+    margin-top: 2%;
+    font-size: 2.3rem;
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+.news img{
+    height: 500px;
+    width: 740px;
+    margin-left: 15rem;
+}
+.news p {
+    font-size: 1.5rem;
+    color: rgb(43, 43, 43);
+    margin-left: 2rem;
+    text-align:left;
+    font-weight: bold;
+}
